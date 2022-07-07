@@ -28,7 +28,10 @@ a:hover {
     font-size: 120%;
 }
 
-
+/* Réalisation format du texte */
+.realisation {
+    color:#000000;
+    font-size: 20px;}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
