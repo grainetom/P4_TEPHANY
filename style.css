@@ -381,6 +381,12 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+/* Paramétrage citation mode desktop */
+.citation_pdg {
+    display: block;
+    margin-left: 250px;
+    margin-right: auto;
+}
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -848,7 +854,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+ /* citation mode mobile */
+ @media (max-width: 640px) {
+ .citation_pdg {
+ position:fixed;
+ width: 500%;
 }
+ }
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
@@ -864,6 +876,7 @@ h4 {
         background-attachment: scroll;
     }
 }
+
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
@@ -901,6 +914,8 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+ 
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1044,10 +1059,12 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-}
+     
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+      
+}
 }
