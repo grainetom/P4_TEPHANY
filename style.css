@@ -2,12 +2,11 @@ body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    
 }
 
-a,
+a,&
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
@@ -44,13 +43,12 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("img/hack-security.gif") no-repeat center center;
 }
 /* ajout d'une classe pour accéssibilité contact */
 .bloc {
     width: 100%;
     clear: both;
-    background: 50% 50% no-repeat;
     padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -123,11 +121,11 @@ font-size: 20px;
 /* Création d'une classe pour page contact */
 
 .parlons1 {
-    color: white!important;
+    color: black;
     font-size: 350%;
 }
 .parlons2 {
-    color: white!important;
+    color: black;
     font-size: 110%;
 }
 .bloc .container {
@@ -952,7 +950,7 @@ h4 {
     }
 }
  /* citation mode mobile */
- @media (max-width: 640px) {
+ @media (max-width: 768px) {
  .citation_pdg {
     display: block;
     font-style: oblique;
@@ -995,11 +993,6 @@ h4 {
 }
 
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
 
 @media (max-width: 991px) {
     .container {
@@ -1159,29 +1152,6 @@ h4 {
     .close-lightbox {
         display: inline-block;
     }
-    .blocsapp-device-iphone5 {
-        background-size: 216px 425px;
-        padding-top: 60px;
-        width: 216px;
-        height: 425px;
-    }
-    .blocsapp-device-iphone5 img {
-        width: 180px;
-        height: 320px;
-    }
+   
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
-
-}
-}
