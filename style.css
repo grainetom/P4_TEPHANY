@@ -19,10 +19,16 @@ a:hover {
 }
 /* Changement en texte pour img et changement de couleur pour le contraste */
 .description {
-    font-size:200%;
-    color:orange;
+    font-size:100%;
+    color:black;
 }
-
+/* mode mobile */
+@media (max-width: 767px) {
+    .description{
+    font-size:100%;
+    color:black;
+}
+}
 /* Améioration pour p class "text-center */
 .text-center {
     font-size: 120%;
@@ -67,7 +73,53 @@ a:hover {
 .col-sm-6 {
     font-size: 120%;
 }
+/* Amélioration contraste pour titre  positionnement  format */
+.agence  {
+    display: inline-flex;
+font-size: 30px;
+    align-items: center;
+    color:white;
+    margin-left:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+}
 
+/* Amélioration contraste pour contact  positionnement  format */
+.contact  {
+    color: white!important;
+    display: inline-flex;
+    justify-content: center;
+font-size: 20px;
+  
+      margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+ /*  mode mobile agence et contact*/
+ @media (max-width: 767px) {
+    .agence  {
+        display: inline-flex;
+        font-size: 15px;
+        align-items: center;
+        color:white;
+        margin-left:50px;
+        margin-bottom: auto;
+        width:100%;
+    }
+    
+    /* Amélioration contraste pour contact  positionnement  format */
+    .contact  {
+        color: white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        margin-left: 70px;
+        width:80%;
+    }
+}
 /* Création d'une classe pour page contact */
 
 .parlons1 {
