@@ -100,7 +100,7 @@ a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
-    color: white;
+    color: white!important;
 
 }
 
@@ -123,9 +123,9 @@ a:hover {
         align-items: center;
         justify-content: center;
         font-size: 25px;
-        margin-left: 70px;
-        width: 80%;
-        color: white;
+        margin-left: 60px;
+        width: 85%;
+        color: white!important;
 
     }
 }
@@ -882,9 +882,9 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+/* Augmentation du contraste pour accéssibilité */
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, .9);
     padding: 40px 40px 40px 40px;
 }
 
