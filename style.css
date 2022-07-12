@@ -886,7 +886,8 @@ p {
 .social {
     color: white !important;
     max-width: 400px;
-    margin-left: 165px;
+    margin-left: 140px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
 }
@@ -1060,8 +1061,8 @@ h4 {
         display: inline-flex;
         flex-direction: row;
         color: white !important;
-        margin-left: 60px;
-        margin-right: auto;
+        margin-left: 40px;
+        margin-right: 20px;
 
     }
 }
