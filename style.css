@@ -55,7 +55,7 @@ bouton_contraste a:hover {
     position: relative;
 }
 
-/* Corrections footer font syze */
+/* Corrections footer font size */
 .col-sm-4 {
     font-size: 140%;
 }
@@ -275,7 +275,7 @@ bouton_contraste a:hover {
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
-
+/* Changement couleurs reseaux sociaux en noir */
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -290,7 +290,7 @@ bouton_contraste a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -307,7 +307,7 @@ bouton_contraste a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: black;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -388,7 +388,7 @@ bouton_contraste a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -835,7 +835,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+    color:black !important;
 }
 
 .container {
