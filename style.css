@@ -12,8 +12,8 @@ button {
     transition: all 3s ease-in-out;
     outline: none !important;
 }
-bouton_contraste
-a:hover {
+
+bouton_contraste a:hover {
     text-decoration: none;
     cursor: pointer;
 }
@@ -92,20 +92,22 @@ a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
-    color: white!important;
+    color: white !important;
 
 }
+
 /* Amélioration footer taille et couleur pour accessibilité */
 .black {
-    color:#000000;
-    font-size: 25px;
-    font-weight:bolder;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
 }
+
 /* Liens sociaux les rendre visible sur page contact */
 
 .col-sm-3 {
     color: white;
-    height:50px;
+    height: 10px;
 }
 
 /*  mode mobile agence et contact*/
@@ -115,7 +117,7 @@ a:hover {
         font-size: 15px;
         align-items: center;
         color: white;
-        margin-left: 80px;
+        margin-left: 2;
         margin-right: auto;
         margin-bottom: auto;
         width: 100%;
@@ -129,38 +131,72 @@ a:hover {
         font-size: 25px;
         margin-left: 60px;
         width: 85%;
-        color: white!important;
+        color: white !important;
 
     }
 }
 
 /* Création d'une classe pour page contact (avec respect bon contraste) */
+@media (max-width: 768px) {
+    .parlons1 {
 
+        margin-right: 50px;
+        margin-left: auto;
+        width: 50%;
+        color: black;
+        font-size: 20%;
+    }
+
+    .parlons2 {
+        margin-right: 50px;
+        margin-left: auto;
+        width: 50%;
+        color: black;
+        font-size: 50%;
+    }
+}
+
+/* Version desktop */
 .parlons1 {
     position: relative;
     display: inline-flex;
-margin-left: 500px;
-margin-right: auto;
+    margin-left: 50px;
+    margin-right: auto;
     color: black;
     font-size: 350%;
 }
 
 .parlons2 {
-    position: relative;
-    display: inline-flex;
-    justify-content:space-between;
-    top:50px;
-    margin-left: 500px;
-    margin-right: auto;
-    color: black ;
-    font-size: 130%;
-    width:50%}
 
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    top: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: black;
+    font-size: 150%!important;
+    font-weight:bolder;
+    width: 100%;
 }
 
+@media (max-width: 768px) {
+    .parlons1 {
+
+        margin-right: 50px;
+        margin-left: auto;
+        width: 50%;
+        color: black;
+        font-size: 100%;
+    }
+
+    .parlons2 {
+        margin-right: 50px;
+        margin-left: auto;
+        width: 100%;
+        color: white;
+        font-size: 50%;
+    }
+}
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -223,9 +259,11 @@ margin-right: auto;
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
+
 .bouton_contraste {
     font-size: 25px;
 }
+
 .d-bloc .icon-round,
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
@@ -583,7 +621,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 10px;
-    color:blue!important;
+    color: blue !important;
 }
 
 .mg-lg {
@@ -846,10 +884,10 @@ p {
 }
 
 .social {
-    color: white!important;
+    color: white !important;
     max-width: 400px;
     margin-left: 165px;
-    display:flex ;
+    display: flex;
     flex-direction: row;
 }
 
@@ -900,6 +938,7 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
+
 /* Augmentation du contraste pour accéssibilité */
 .black-background {
     background-color: rgba(165, 147, 99, .9);
@@ -925,7 +964,7 @@ h4 {
 
 /* changement pour couleur */
 .tc-white {
-    color: lightblue !important;
+    color: black !important;
 }
 
 .tc-white2 {
@@ -1013,25 +1052,28 @@ h4 {
         margin-left: 50px;
         margin-right: auto;
     }
+}
 
-    /* Configuration liens sociaux mobile (flex)*/
-    @media (max-width: 768px) {
+/* Configuration liens sociaux mobile (flex)*/
+@media (max-width: 768px) {
     .social {
-        display:inline-flex ;
+        display: inline-flex;
         flex-direction: row;
-    color: white!important;
-    margin-left: 60px;
-    margin-right: auto;
-  
+        color: white !important;
+        margin-left: 60px;
+        margin-right: auto;
+
     }
 }
-    .col-sm-3 {
-        color: #FFF;
-    }
-    @media (max-width: 992px) and (min-width: 768px) {
+
+.col-sm-3 {
+    color: #FFF;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
-    }&
+    }
 
     .nav-center.navbar .nav {
         max-width: 100%
@@ -1058,7 +1100,7 @@ h4 {
     }
 
 
-  
+
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
@@ -1072,7 +1114,6 @@ h4 {
 
     .page-container {
         overflow-x: hidden;
-        position: relative;
     }
 
     h1,
