@@ -1,8 +1,9 @@
+/* Suppression antialiserd pour meilleures performances */
+
 body {
     margin: 0;
     padding: 0;
     background: #FFF;
-    -webkit-font-smoothing: antialiased;
 
 }
 
@@ -11,7 +12,7 @@ button {
     transition: all 3s ease-in-out;
     outline: none !important;
 }
-
+bouton_contraste
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -94,6 +95,18 @@ a:hover {
     color: white!important;
 
 }
+/* Amélioration footer taille et couleur pour accessibilité */
+.black {
+    color:#000000;
+    font-size: 25px;
+    font-weight:bolder;
+}
+/* Liens sociaux les rendre visible sur page contact */
+
+.col-sm-3 {
+    color: white;
+    height:50px;
+}
 
 /*  mode mobile agence et contact*/
 @media (max-width: 767px) {
@@ -121,17 +134,27 @@ a:hover {
     }
 }
 
-/* Création d'une classe pour page contact */
+/* Création d'une classe pour page contact (avec respect bon contraste) */
 
 .parlons1 {
+    position: relative;
+    display: inline-flex;
+margin-left: 500px;
+margin-right: auto;
     color: black;
     font-size: 350%;
 }
 
 .parlons2 {
-    color: black;
-    font-size: 110%;
-}
+    position: relative;
+    display: inline-flex;
+    justify-content:space-between;
+    top:50px;
+    margin-left: 500px;
+    margin-right: auto;
+    color: black ;
+    font-size: 130%;
+    width:50%}
 
 .bloc .container {
     padding-left: 0;
@@ -200,7 +223,9 @@ a:hover {
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
-
+.bouton_contraste {
+    font-size: 25px;
+}
 .d-bloc .icon-round,
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
@@ -821,7 +846,7 @@ p {
 }
 
 .social {
-    color: white;
+    color: white!important;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -988,15 +1013,18 @@ h4 {
     }
 
     /* Configuration liens sociaux mobile (flex)*/
-    .social {
-        display: inline-flex;
-        flex-direction: row;
-        padding-left: 50px;
-        padding-bottom: 0;
+    .social2 {
+        max-width: 400px;
+        margin: auto auto auto auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
-
-@media (max-width: 992px) and (min-width: 768px) {
+    .col-sm-3 {
+        color: #FFF;
+    }
+    @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
     }
