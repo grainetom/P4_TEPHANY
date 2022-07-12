@@ -848,7 +848,9 @@ p {
 .social {
     color: white!important;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin-left: 165px;
+    display:flex ;
+    flex-direction: row;
 }
 
 h2 {
@@ -1013,12 +1015,14 @@ h4 {
     }
 
     /* Configuration liens sociaux mobile (flex)*/
-    .social2 {
-        max-width: 400px;
-        margin: auto auto auto auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+    @media (max-width: 768px) {
+    .social {
+        display:inline-flex ;
+        flex-direction: row;
+    color: white!important;
+    margin-left: 60px;
+    margin-right: auto;
+  
     }
 }
     .col-sm-3 {
@@ -1027,7 +1031,7 @@ h4 {
     @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
-    }
+    }&
 
     .nav-center.navbar .nav {
         max-width: 100%
