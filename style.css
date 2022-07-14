@@ -78,7 +78,8 @@ bouton_contraste a:hover {
     font-size: 30px;
     align-items: center;
     color: white;
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
@@ -117,7 +118,7 @@ bouton_contraste a:hover {
         font-size: 15px;
         align-items: center;
         color: white;
-        margin-left: 2;
+        margin-left: 80px;
         margin-right: auto;
         margin-bottom: auto;
         width: 100%;
