@@ -308,7 +308,7 @@ bouton_contraste a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: black;
+    color: bwhitek;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -443,6 +443,7 @@ bouton_contraste a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    color: white;
 }
 
 .navbar {
@@ -836,7 +837,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color:black !important;
+    color:black;
 }
 
 .container {
@@ -873,6 +874,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color: white ;
 }
 
 .cta-hero {
@@ -912,7 +914,7 @@ h3 {
 }
 
 h1 {
-    color: #333333 !important;
+    color:white!important;
 }
 
 h4 {
