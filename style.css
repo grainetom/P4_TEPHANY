@@ -93,7 +93,7 @@ bouton_contraste a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
-    color: white !important;
+    color: white;
 
 }
 
@@ -308,7 +308,7 @@ bouton_contraste a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: bwhitek;
+    color: black;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -1108,8 +1108,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+   
     }
 }
 
