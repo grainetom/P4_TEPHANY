@@ -117,7 +117,7 @@ bouton_contraste a:hover {
         display: inline-flex;
         font-size: 20px;
         color: white;
-        margin-left: 60px;
+        margin-left: 40px;
         margin-right: auto;
         margin-bottom: auto;
         
@@ -529,7 +529,7 @@ bouton_contraste a:hover {
         margin-right: auto;
         text-align: center;
         font-size: 130%;
-        width: 48%;
+        width: 100%;
     }
 
     .pdg {
