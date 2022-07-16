@@ -115,9 +115,11 @@ bouton_contraste a:hover {
 @media (max-width: 767px) {
     .agence {
         display: inline-flex;
+        align-items:center;
+        justify-content:space-between;
         font-size: 20px;
         color: white;
-        margin-left: 40px;
+        margin-left: 10px;
         margin-right: auto;
         margin-bottom: auto;
         
