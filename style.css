@@ -233,12 +233,12 @@ bouton_contraste a:hover {
     left: 0;
     right: 0;
 }
-
+/* Suppression cela n'apporte rien au site et nuit a la vitesse de chargement 
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
-
+*/
 .b-parallax {
     background-attachment: fixed;
 }
