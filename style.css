@@ -48,14 +48,17 @@ bouton_contraste a:hover {
     width: 100%;
     clear: both;
     padding: 0 50px;
+
+    /*  correction w3c css
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-}
 
+*/
 /* Corrections footer font size */
+}
 .col-sm-4 {
     font-size: 140%;
 }
@@ -127,7 +130,7 @@ bouton_contraste a:hover {
 
    
     }
-}
+
 
 /* Création d'une classe pour page contact (avec respect bon contraste) */
 @media (max-width: 768px) {
@@ -211,13 +214,14 @@ bouton_contraste a:hover {
 .bg-bl-edge,
 .bg-tr-edge,
 .bg-br-edge,
+/*  Correction css w3c
 .bg-repeat {
     -webkit-background-size: auto !important;
     -moz-background-size: auto !important;
     -o-background-size: auto !important;
     background-size: auto !important;
 }
-
+*/
 .bg-repeat {
     background: repeat;
 }
@@ -519,7 +523,8 @@ bouton_contraste a:hover {
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+        /*  Correction W3C CSS
+        -webkit-transform: translateY(-50%);*/
     }
 
     /* Paramétrage citation mode desktop */
@@ -729,6 +734,7 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    /* Correction W3C */
     -webkit-transform: translateY(-50%);
 }
 
