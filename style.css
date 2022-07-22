@@ -1,4 +1,4 @@
-/* Suppression antialiserd pour meilleures performances */
+/* Suppression antialiser pour meilleures performances */
 
 body {
     margin: 0;
@@ -69,14 +69,19 @@ bouton_contraste a:hover {
     display: block;
     width: 100px;
 }
+
+
 .nav2{
-    display: block;
+    display: inline-block;
     width: 100px;
     position: absolute;
-    right:100px;
-    bottom:370px;
+    right:500px;
+    bottom:800px;
     color: #000000;
 }
+ 
+/* Responsive mobile pur accueil */
+
 
 /* Amélioration Accessibilité sur contact col-sm-6 */
 .col-sm-6 {
@@ -129,7 +134,7 @@ bouton_contraste a:hover {
         align-items:center;
         justify-content:space-between;
         font-size: 20px;
-        color: white;
+        color: black;
         margin-left: 10px;
         margin-right: auto;
         margin-bottom: auto;
@@ -222,14 +227,14 @@ bouton_contraste a:hover {
 .bg-bl-edge,
 .bg-tr-edge,
 .bg-br-edge,
-/*  Correction css w3c
+
 .bg-repeat {
     -webkit-background-size: auto !important;
     -moz-background-size: auto !important;
     -o-background-size: auto !important;
     background-size: auto !important;
 }
-*/
+
 .bg-repeat {
     background: repeat;
 }
@@ -238,16 +243,7 @@ bouton_contraste a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-/* Suppression cela n'apporte rien au site et nuit a la vitesse de chargement 
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -482,7 +478,7 @@ bouton_contraste a:hover {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
-    z-index: 1;
+    z-index: 10;
 }
 
 .nav>li {
@@ -534,7 +530,18 @@ bouton_contraste a:hover {
         /*  Correction W3C CSS
         -webkit-transform: translateY(-50%);*/
     }
+}
 
+    @media (max-width: 768px) {
+        .site-navigation {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translate(0, -50%);
+            /*  Correction W3C CSS
+            -webkit-transform: translateY(-50%);*/
+        }
+    
     /* Paramétrage citation mode desktop */
     .citation_pdg {
         display: block;
