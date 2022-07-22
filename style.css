@@ -69,6 +69,14 @@ bouton_contraste a:hover {
     display: block;
     width: 100px;
 }
+.nav2{
+    display: block;
+    width: 100px;
+    position: absolute;
+    right:100px;
+    bottom:350px;
+    color: #000000;
+}
 
 /* Amélioration Accessibilité sur contact col-sm-6 */
 .col-sm-6 {
