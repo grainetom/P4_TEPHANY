@@ -911,14 +911,6 @@ p {
     font-weight: 700;
 }
 
-.social {
-    color: white !important;
-    max-width: 400px;
-    margin-left: 140px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-}
 
 h2 {
     font-size: 22px;
@@ -1081,6 +1073,14 @@ h4 {
         margin-left: 50px;
         margin-right: auto;
     }
+}
+/* Liens sociaux desktop  */
+.social {
+    display: inline-flex;
+        flex-direction: row;
+        color: white !important;
+        margin-left: 110px;
+        margin-bottom: 25px;
 }
 
 /* Configuration liens sociaux mobile (flex)*/
