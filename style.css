@@ -112,7 +112,19 @@ bouton_contraste a:hover {
     color: white;
 
 }
+/*  Amélioration contact mocile  */
+@media (max-width: 767px) {
+.contact {
+   
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
 
+}
+}
 /* Amélioration footer taille et couleur pour accessibilité */
 .black {
     color: #000000;
@@ -248,7 +260,7 @@ bouton_contraste a:hover {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
-*/
+
 .b-parallax {
     background-attachment: fixed;
 }
