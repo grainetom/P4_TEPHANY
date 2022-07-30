@@ -80,9 +80,19 @@ bouton_contraste a:hover {
     color: #000000;
 }
  
+/*  accueil a droite  */
+.nav3{
+    position: absolute;
+    left:1800px;
+    top:100px;
+}
 /* Responsive mobile pur accueil */
-
-
+@media (max-width: 768px) {
+      .nav3{
+        left:50px;
+    
+}
+}
 /* Amélioration Accessibilité sur contact col-sm-6 */
 .col-sm-6 {
     font-size: 120%;
