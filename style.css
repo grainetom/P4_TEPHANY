@@ -83,13 +83,13 @@ bouton_contraste a:hover {
 /*  accueil a droite  */
 .nav3{
     position: absolute;
-    left:1800px;
+    left:1200px;
     top:100px;
 }
 /* Responsive mobile pur accueil */
 @media (max-width: 768px) {
       .nav3{
-        left:50px;
+        left:5px;
     
 }
 }
@@ -1088,7 +1088,9 @@ h4 {
 .social {
     display: inline-flex;
         flex-direction: row;
-        margin-left: 110px;
+        margin-left: 35%;
+        padding-right:30px;
+        margin-right: auto;
         margin-bottom: 25px;
 }
 
@@ -1098,8 +1100,9 @@ h4 {
         display: inline-flex;
         flex-direction: row;
         color: white;
-        margin-left: 40px;
-        margin-right: 20px;
+        margin-left: 25%;
+        padding-right:30px;
+        margin-right: auto;
 
     }
 }
